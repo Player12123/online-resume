@@ -1,13 +1,13 @@
 basic:
-  name: LI PEIYU                      # name
-  title: Backend Developer           # job title
+  name: 李沛禹                      # name
+  title: 后端工程师           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/pic.png # avatar file path
 
 contact:
   # meta
-  location: Rouen, France # location
+  location: 法国 鲁昂 # location
   email: nolan.li359@gmail.com    # email address
   phone: +33 07 61 76 06 03 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website: # site URL without schema, like example.com, will automatically prepand "https://"
@@ -81,95 +81,95 @@ contact:
 profile:
   show: true
   order: 1
-  title: Profile
+  title: 概况
   description: |
-    I have experience in the field of artificial intelligence and Machine Visualization. I Have completed projects in face recognition and self-driving vehicles. 
-    I am serious about my work and enjoy challenging work. I hope to find a four-to-six-month internship in a data analytics or AI related role.
+    我在人工智能和机器可视化领域拥有丰富经验。我已经完成了人脸识别和自动驾驶汽车方面的项目。
+    我对工作认真负责，喜欢具有挑战性的工作。我希望能在数据分析或人工智能相关的岗位上找到一份为期四到六个月的实习工作。
 
 experience:
   show: true
   order: 2
-  title: Experiences
+  title: 工作经历
   description: |
   items:
-    - company: Suzhou Zhiheshun Advanced Materials Co., Ltd.
+    - company: 苏州至和顺新材料有限公司
       link: '#'
-      tags: Internship
+      tags: 实习
       date: 2022.11 - 2022.12
-      role: Network Support
-      location: Jiangsu, China
+      role: 网络支持
+      location: 中国 江苏
       description: |
-        + Using the big data technology, optimize the company's key indicators of the report, more convenient, more rapid statistics and processing.
-        + Participated in the design of the company's web version, put forward good suggestions and was adopted.
+        + 利用大数据技术，优化公司关键指标报表，更方便、更快捷地进行统计和处理。
+        + 参与公司网页版设计，提出好的建议并被采纳。
 
-    - company: Howmet Aerospace Components (Suzhou) Co., Ltd.
+    - company: 豪梅特航天航空机件(苏州)有限公司
       link: howmet #username | https://www.username.com
-      tags: Internship
+      tags: 实习
       date: 2021.07 - 2021.08
-      role: IT manager assistant
-      location: Jiangsu, China
+      role: IT经理助理
+      location: 中国 江苏
       description: |
-        + Maintain the storage and processing of order data.
-        + Statistics and manage the operation of computers and other related equipment.
-        + Provide some computer-related technical support, mainly to assist engineers to do some hardware assembly and software problem solving.
+        + 维护订单数据的存储和处理。
+        + 统计和管理计算机及其他相关设备的运行。
+        + 提供一些与计算机有关的技术支持，主要是协助工程师进行一些硬件组装和软件问题的解决。
 
 project:
   show: true
   order: 3
-  title: Projects
+  title: 项目经历
   description: |
   items:
-    - name: DJI Robomaster Autonomous Robot
+    - name: 大疆自主机器人
       link: '#'
-      tags: committer
+      tags: 主要负责人
       date: 2024.02 - 2024.05
       description: |
-        + We realized three functions of automated robots by CNN algorithm. 
-        + It can recognize the obstacles on the way forward and bypass them through infrared sensors while traveling, and finally reach the specified destination smoothly. 
-        + It can recognize and track the person who enters the line of sight through the camera and keep following the person to move. 
-        + It can recognize designated objects and grab them, and transport them to the designated place before putting them down. All these three functions are deployed in the robot's embedded system.
+        + 我们通过 CNN 算法实现了自动机器人的三种功能。
+        + 它能识别前进道路上的障碍物，并在行进过程中通过红外传感器绕过障碍物，最终顺利到达指定目的地。
+        + 它能通过摄像头识别并跟踪进入视线的人，并一直跟着人移动。
+        + 能识别并抓取指定物品，并将其运送到指定地点后再放下。所有这三项功能都部署在机器人的嵌入式系统中。
 
-    - name: Epidemic Data Analysis System
+    - name: 新冠疫情数据分析系统
       link:
-      tags: committer
+      tags: 主要负责人
       date: 2023.02-2023.05
       description: |
-        + Three algorithmic models, namely, random forest, elastic network regression and kernel ridge regression,  were used and the data dimensions were reduced to analyze 2020 epidemic data . 
-        + The system can predict the trend of the epidemic accurately.
-        + The analyzed data was displayed on a web platform made using the Flask framework.
+        + 采用随机森林、弹性网络回归和核脊回归三种算法模型，降低数据维度，对 2020 年疫情数据进行分析。
+        + 该系统可准确预测疫情趋势。
+        + 利用 Flask 框架制作的网络平台显示了分析数据。
 
-    - name: Face recognition program
+    - name: 人脸识别系统
       link:
-      tags: committer
+      tags: 主要负责人
       date: 2022.11-2022.12
       description: |
-        + Producing datasets by taking your own video cutting it into images and labeling them.
-        + An application based on Java using VGG-16 Convolutional Neural Network for face recognition.
+        + 通过将自己的视频剪辑成图像并贴上标签来制作数据集。
+        + 基于 Java 的应用程序，使用 VGG-16 卷积神经网络进行人脸识别。
         
-    - name: Big Data Log Analysis System
+    - name: 大数据日志分析系统
       link:
-      tags: committer
+      tags: 主要负责人
       date: 2021.11-2021.12
       description: |
-        + Through Java, a large amount of data is passed to KafKa in the VM. 
-        + Then Flume is used to store the data from KafKa to the Hbase database in HDFS. 
-        + Finally, Java is used to access and query the data in HBase and visualize it in web pages using ECharts.
+        + 通过 Java，大量数据被传递到虚拟机中的 KafKa。
+        + 然后使用 Flume 将数据从 KafKa 存储到 HDFS 中的 Hbase 数据库。
+        + 最后，使用 Java 访问和查询 HBase 中的数据，并使用 ECharts 在网页中将其可视化。
       
 skill:
   show: true
   order: 4
-  title: Skills
+  title: 技术
   description: |
   items:
     - name: Python
       level: 5
-    - name: SQL
+    - name: 关系型数据库
       level: 4
     - name: Java
       level: 3
-    - name: Neural Networks
+    - name: 神经网络
       level: 4
-    - name: No SQL
+    - name: 非关系型数据库
       level: 3
     - name: Linux
       level: 4
@@ -177,7 +177,7 @@ skill:
       level: 4
     - name: Pytorch
       level: 4
-    - name: Embedded System
+    - name: 嵌入式系统
       level: 3
 
   # groups:
@@ -200,24 +200,24 @@ skill:
 education:
   show: true
   order: 5
-  title: Education
+  title: 教育经历
   description: |
   items:
     - institution: ESIGELEC
       link: '#'
       date: 2023 - now
-      major: Connected Embedded Intelligent Systems
-      degree: Master
+      major: 互联嵌入式智能系统
+      degree: 硕士
       description: |
-        Main Courses: MicroPython, C/C++, Machine Learning, Embeded Linux, ROS, Micrcontroller, Project Management, Smart Sensors, Virtual Insturmentation, Aitificial intelligence for Smart Systems, Project Managment.
-
-    - institution: Shandong Jiaotong University
+        主要课程: MicroPython、C/C++、机器学习、嵌入式 Linux、ROS、微控制器、项目管理、智能传感器、虚拟仪器、人工智能系统、项目管理。
+        
+    - institution: 山东交通学院
       link:
       date: 2019 - 2023
-      major: Data Science and Big Data Technology
-      degree: Bachelor
+      major: 数据科学与大数据技术
+      degree: 学士
       description: |
-         Main Courses: Linux, Python, Java, SQL, Machine Learning, Deep Learning, Data Structure, Computer Networks, Big Data Statistical Analysis, Data Mining, Data Acquisition and Storage Technologies, Big Data Applications and Platforms
+         主要课程: Linux、Python、Java、SQL、机器学习、深度学习、数据结构、计算机网络、大数据统计分析、数据挖掘、数据采集与存储技术、大数据应用与平台
 
 certificate:
   show: false
@@ -321,50 +321,50 @@ patent:
 organization:
   show: true
   order: 10
-  title: Extracurricular Activities
+  title: 课余活动
   description: |
   items:
-    - company: University Studies Department
+    - company: 校学习部
       date: 2019.10 - 2022.3
-      role: Vice-Minister
-      location: Shandong, China
+      role: 副部长
+      location: 中国 山东
       description: |
-        + Help teachers with paperwork and related.
-        + Create a class schedule at the beginning of the semester.
-        + Organization of debating competitions and distribution of certificates for various levels of examination.
+        + 帮助教师处理文书工作及相关事宜。
+        + 在学期初制定课表。
+        + 组织辩论赛，发放各级考试证书。
 
 language:
   show: true
   order: 11
-  title: Languages
+  title: 语言能力
   description: |
   items:
-    - idiom: Chinese
-      level: Native
-    - idiom: English
+    - idiom: 中文
+      level: 母语
+    - idiom: 英语
       level: C1
-    - idiom: French
+    - idiom: 法语
       level: A2
 
 interest:
   show: true
   order: 12
-  title: Interests
+  title: 兴趣爱好
   description: |
   items:
-    - item: Reading
+    - item: 阅读
       link: 
-    - item: Basketball
+    - item: 篮球
       link:
-    - item: Singing
+    - item: 音乐
       link:
 
 evaluation:
   show: true
   order: 13
-  title: Self-evaluation
+  title: 自我评价
   description: |
-      I am optimistic, cheerful and responsible. I focus on teamwork and am not afraid to face difficult and complex situations. I love to learn, and can find my own shortcomings in the work and try to make up for them.
+      我乐观、开朗、有责任心。我注重团队合作，不怕面对困难和复杂的情况。我热爱学习，能在工作中发现自己的不足并努力弥补。
 
 reference:
   show: false

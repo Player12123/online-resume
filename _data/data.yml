@@ -134,9 +134,15 @@ project:
       tags: committer
       date: 2023.02-2023.05
       description: |
-        + Three algorithmic models, namely, random forest, elastic network regression and kernel ridge regression, were used.
-        + The data dimensions were reduced to analyze 2020 epidemic data.
+        + Three algorithmic models, namely, random forest, elastic network regression and kernel ridge regression,  were used and the data dimensions were reduced to analyze 2020 epidemic data . 
         + The system can predict the trend of the epidemic accurately.
+        + The analyzed data was displayed on a web platform made using the Flask framework.
+
+    - name: Epidemic Data Analysis System
+      link:
+      tags: committer
+      date: 2023.02-2023.05
+      description: |
 
 skill:
   show: true

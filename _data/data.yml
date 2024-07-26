@@ -319,15 +319,18 @@ patent:
     + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
 
 organization:
-  show: false
+  show: true
   order: 10
-  title: Organizations
+  title: Extracurricular Activities
   description: |
-    The organization section in a resume, specifically for social contexts, is a section where you can showcase any relevant involvement or leadership positions in social, cultural, or community organizations. This section can highlight your commitment to social causes and your ability to work collaboratively with others towards a common goal.
-
-    In this section, you can list the name of the organization, your role and responsibilities, the duration of your involvement, and any significant achievements or accomplishments. You can also mention any skills or qualities you gained from your involvement, such as leadership, teamwork, communication, or problem-solving skills.
-
-    This section can be especially valuable for candidates seeking positions in the non-profit sector, social work, or community engagement roles, where experience in social or cultural organizations can demonstrate a genuine passion for social causes and a willingness to work collaboratively towards social change. However, it is important to only include organizations that are relevant to the job you are applying for, and avoid listing organizations that may be controversial or potentially offensive.
+  items:
+    - company: University Studies Department
+      date: 2019.10 - 2022.3
+      role: Vice-Minister
+      description: |
+        + Help teachers with paperwork and related.
+        + Create a class schedule at the beginning of the semester.
+        + Organization of debating competitions and distribution of certificates for various levels of examination.
 
 language:
   show: true

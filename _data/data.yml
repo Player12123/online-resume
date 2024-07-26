@@ -119,23 +119,24 @@ project:
   title: Projects
   description: |
   items:
-    - name: Personal project
+    - name: DJI Robomaster Autonomous Robot
       link: '#'
       tags:
-      date: 2015 - 2017
+      date: 2024.02 - 2024.05
       description: |
-        Personal project description...
-        + First
-        + Second
+        + We realized three functions of automated robots by CNN algorithm. 
+        + It can recognize the obstacles on the way forward and bypass them through infrared sensors while traveling, and finally reach the specified destination smoothly. 
+        + It can recognize and track the person who enters the line of sight through the camera and keep following the person to move. 
+        + It can recognize designated objects and grab them, and transport them to the designated place before putting them down. All these three functions are deployed in the robot's embedded system.
 
-    - name: OSS project
+    - name: Epidemic Data Analysis System
       link:
       tags: committer
-      date:
+      date: 2023.02-2023.05
       description: |
-        OSS project description...
-        + First
-        + Second
+        + Three algorithmic models, namely, random forest, elastic network regression and kernel ridge regression, were used.
+        + The data dimensions were reduced to analyze 2020 epidemic data.
+        + The system can predict the trend of the epidemic accurately.
 
 skill:
   show: true
@@ -185,25 +186,24 @@ education:
   title: Education
   description: |
   items:
-    - institution: Example University
+    - institution: ESIGELEC
       link: '#'
-      date: 2015 - 2018
-      major: Machine Learning
+      date: 2023 - now
+      major: Connected Embedded Intelligent Systems
       degree: Master
       description: |
-        Additional information for this institution.
-        + First
-        + Second
+        Main Courses: MicroPython, C/C++, Machine Learning, Embeded Linux, ROS, Micrcontroller, Project Management, Smart Sensors, Virtual Insturmentation, Aitificial intelligence for Smart Systems, Project Managment.
 
     - institution: Shandong Jiaotong University
       link:
       date: 2019 - 2023
       major: Data Science and Big Data Technology
       degree: Bachelor
-      Main Courses: Linux, Python, Java, SQL, Machine Learning, Deep Learning, Data Structure
+      description: |
+         Main Courses: Linux, Python, Java, SQL, Machine Learning, Deep Learning, Data Structure, Computer Networks, Big Data Statistical Analysis, Data Mining, Data Acquisition and Storage Technologies, Big Data Applications and Platforms
 
 certificate:
-  show: true
+  show: false
   order: 6
   title: Certificates
   description: |
@@ -230,7 +230,7 @@ certificate:
         It's my Example Certificate Two by Example.
 
 publication:
-  show: true
+  show: false
   order: 7
   title: Publications
   description: |
@@ -253,7 +253,7 @@ publication:
       link:
 
 award:
-  show: true
+  show: false
   order: 8
   title: Awards
   description: |
@@ -278,7 +278,7 @@ award:
         It's my Example Awared Two by Example.
 
 patent:
-  show: true
+  show: false
   order: 9
   title: Patents
   description: |
@@ -302,7 +302,7 @@ patent:
     + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
 
 organization:
-  show: true
+  show: false
   order: 10
   title: Organizations
   description: |
@@ -317,15 +317,13 @@ language:
   order: 11
   title: Languages
   description: |
-    The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
-
-    It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
-
   items:
     - idiom: Chinese
       level: Native
     - idiom: English
-      level: Professional
+      level: C1
+    - idiom: French
+      level: A1
 
 interest:
   show: true
@@ -356,7 +354,7 @@ evaluation:
     A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
 
 reference:
-  show: true
+  show: false
   order: 14
   title: References
   description: |

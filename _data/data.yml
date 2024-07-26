@@ -99,11 +99,11 @@ experience:
       role: Network Support
       location: Suzhou ,Jiangsu
       description: |
-        + Using the big data technology, optimize the company's key indicators of the report, more convenient, more rapid statistics and processing.
-        + Second
+        + Using the big data technology, optimize the company's key indicators of the report, more convenient, more rapid statistics and processing.
+        + Participated in the design of the company's web version, put forward good suggestions and was adopted.
 
     - company: Howmet Aerospace Components (Suzhou) Co., Ltd.
-      link:
+      link: howmet #username | https://www.username.com
       tags: Internship
       date: 2021.07 - 2021.08
       role: IT manager assistant
@@ -111,19 +111,13 @@ experience:
       description: |
         + Maintain the storage and processing of order data.
         + Statistics and manage the operation of computers and other related equipment.
-        + Provide some computer-related technical support, mainly to assist engineers to do some hardware assembly and software problem solving.
+        + Provide some computer-related technical support, mainly to assist engineers to do some hardware assembly and software problem solving.
 
 project:
   show: true
   order: 3
   title: Projects
   description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
-
-    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
-
-    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
-
   items:
     - name: Personal project
       link: '#'
@@ -148,60 +142,48 @@ skill:
   order: 4
   title: Skills
   description: |
-    The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
-
-    The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
-
-    When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
-
-    There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
-
   items:
-    - name: Skill A
+    - name: Python
       level: 5
-    - name: Skill B
+    - name: SQL
       level: 4
-    - name: Skill C
+    - name: Java
       level: 3
-    - name: Skill D
+    - name: Neural Networks
       level: 4
-    - name: Skill E
+    - name: No SQL
       level: 3
-    - name: Skill F
-      level: 1
-    - name: Skill G
+    - name: Linux
       level: 4
-    - name: Skill H
+    - name: Paddle
       level: 4
-    - name: Skill I
+    - name: Pytorch
+      level: 4
+    - name: Embedded System
       level: 3
 
-  groups:
-    - name: Group A Skills
-      item:
-        - Skill A
-        - Skill B
-        - Skill C
-        - Skill D
-    - name: Group B Skills
-      item:
-        - Skill E
-        - Skill F
-        - Skill G
-    - name: Group C Skills
-      item:
-        - Skill H
-        - Skill I
+  # groups:
+  #   - name: Group A Skills
+  #     item:
+  #       - Skill A
+  #       - Skill B
+  #       - Skill C
+  #       - Skill D
+  #   - name: Group B Skills
+  #     item:
+  #       - Skill E
+  #       - Skill F
+  #       - Skill G
+  #   - name: Group C Skills
+  #     item:
+  #       - Skill H
+  #       - Skill I
 
 education:
   show: true
   order: 5
   title: Education
   description: |
-    The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
-
-    In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
-
   items:
     - institution: Example University
       link: '#'
@@ -213,15 +195,12 @@ education:
         + First
         + Second
 
-    - institution: Example University
+    - institution: Shandong Jiaotong University
       link:
-      date: 2011 - 2015
-      major: Computer Science
+      date: 2019 - 2023
+      major: Data Science and Big Data Technology
       degree: Bachelor
-      description: |
-        Additional information for this institution.
-        + First
-        + Second
+      Main Courses: Linux, Python, Java, SQL, Machine Learning, Deep Learning, Data Structure
 
 certificate:
   show: true

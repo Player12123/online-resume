@@ -97,7 +97,7 @@ experience:
       tags: Internship
       date: 2022.11 - 2022.12
       role: Network Support
-      location: Suzhou ,Jiangsu
+      location: Jiangsu, China
       description: |
         + Using the big data technology, optimize the company's key indicators of the report, more convenient, more rapid statistics and processing.
         + Participated in the design of the company's web version, put forward good suggestions and was adopted.
@@ -107,7 +107,7 @@ experience:
       tags: Internship
       date: 2021.07 - 2021.08
       role: IT manager assistant
-      location: Suzhou ,Jiangsu
+      location: Jiangsu, China
       description: |
         + Maintain the storage and processing of order data.
         + Statistics and manage the operation of computers and other related equipment.
@@ -327,6 +327,7 @@ organization:
     - company: University Studies Department
       date: 2019.10 - 2022.3
       role: Vice-Minister
+      location: Shandong, China
       description: |
         + Help teachers with paperwork and related.
         + Create a class schedule at the beginning of the semester.

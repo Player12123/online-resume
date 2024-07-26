@@ -121,7 +121,7 @@ project:
   items:
     - name: DJI Robomaster Autonomous Robot
       link: '#'
-      tags:
+      tags: committer
       date: 2024.02 - 2024.05
       description: |
         + We realized three functions of automated robots by CNN algorithm. 
@@ -138,12 +138,23 @@ project:
         + The system can predict the trend of the epidemic accurately.
         + The analyzed data was displayed on a web platform made using the Flask framework.
 
-    - name: Epidemic Data Analysis System
+    - name: Face recognition program
       link:
       tags: committer
-      date: 2023.02-2023.05
+      date: 2022.11-2022.12
       description: |
-
+        + Producing datasets by taking your own video cutting it into images and labeling them.
+        + An application based on Java using VGG-16 Convolutional Neural Network for face recognition.
+        
+    - name: Big Data Log Analysis System
+      link:
+      tags: committer
+      date: 2021.11-2021.12
+      description: |
+        + Through Java, a large amount of data is passed to KafKa in the VM. 
+        + Then Flume is used to store the data from KafKa to the Hbase database in HDFS. 
+        + Finally, Java is used to access and query the data in HBase and visualize it in web pages using ECharts.
+      
 skill:
   show: true
   order: 4
@@ -329,23 +340,19 @@ language:
     - idiom: English
       level: C1
     - idiom: French
-      level: A1
+      level: A2
 
 interest:
   show: true
   order: 12
   title: Interests
   description: |
-    The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
-
-    Including an interest section in your resume can be helpful if your interests are relevant to the job you are applying for, such as if you are applying for a job in a creative field and your hobbies include painting or writing. It can also be useful if you are applying for a job where teamwork or social skills are important, and you can mention interests that demonstrate those qualities.
-
-    However, it is important to be selective when including an interest section in your resume, and to choose interests that are appropriate and professional. Avoid including controversial or potentially offensive interests, and focus on interests that showcase your positive qualities and strengths.
-
   items:
     - item: Reading
-      link: '#'
-    - item: Cooking
+      link: 
+    - item: Basketball
+      link:
+    - item: Singing
       link:
 
 evaluation:
@@ -353,11 +360,7 @@ evaluation:
   order: 13
   title: Self-evaluation
   description: |
-    The self-evaluation section in a resume is a section where you can evaluate and assess your own skills, strengths, and weaknesses. It is typically a short paragraph or bullet points at the end of your resume, which provides a personal perspective on your abilities and how they align with the requirements of the job.
-
-    In this section, you can highlight your achievements, areas of expertise, and any unique qualities or experiences that set you apart from other candidates. You can also mention areas where you are looking to improve or gain further experience.
-
-    A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
+      I am optimistic, cheerful and responsible. I focus on teamwork and am not afraid to face difficult and complex situations. I love to learn, and can find my own shortcomings in the work and try to make up for them.
 
 reference:
   show: false
